@@ -1,0 +1,18 @@
+# Ignore Docker Data/Volumes (The source of your error)
+**/volume-data/
+**/mysql_keycloak_data/
+**/mysql/data/
+**/docker/mysql/
+**/data/
+
+# Java & Build
+target/
+*.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDEs
+.idea/
+.vscode/
+*.iml
