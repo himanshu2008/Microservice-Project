@@ -1,0 +1,22 @@
+# --- Docker & Databases ---
+**/volume-data/
+**/mysql_keycloak_data/
+**/mysql/data/
+**/data/
+**/docker/mysql/
+**/*.db
+**/*.dblwr
+**/mysql/
+
+# --- Build Artifacts ---
+**/target/
+**/build/
+*.jar
+*.war
+
+# --- IDE & System ---
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
