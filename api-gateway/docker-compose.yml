@@ -6,7 +6,7 @@ services:
       - ./volume-data/mysql_keycloak_data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DARABASE: keycloak
+      MYSQL_DATABASE: keycloak
       MYSQL_USER: keycloak
       MYSQL_PASSWORD: password
   keycloak:
